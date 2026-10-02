@@ -7,11 +7,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Добро пожаловать в мой магазин!</h1>
-    <p>Это мой первый сайт на .shop домене</p>
-    
-    <button id="myButton">Нажми меня</button>
-    <p id="message"></p>
+    <div class="container">
+        <h1>Добро пожаловать в мой магазин!</h1>
+        <p class="subtitle">Это мой первый сайт на .shop домене</p>
+        
+        <div class="buttons-grid">
+            <button class="custom-btn">
+                <span>Товары</span>
+            </button>
+            <button class="custom-btn">
+                <span>О нас</span>
+            </button>
+            <button class="custom-btn">
+                <span>Контакты</span>
+            </button>
+            <button class="custom-btn">
+                <span>Доставка</span>
+            </button>
+            <button class="custom-btn">
+                <span>Скидки</span>
+            </button>
+            <button class="custom-btn">
+                <span>Отзывы</span>
+            </button>
+        </div>
+
+        <p id="message" class="message"></p>
+    </div>
     
     <script src="script.js"></script>
 </body>
